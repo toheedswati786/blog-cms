@@ -1,7 +1,7 @@
 <?php
 // admin/create.php
-require_once '../config.php';
-require_once '../models/Blog.php';
+require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/../models/Blog.php';
 
 $blogModel = new Blog();
 $errors = [];

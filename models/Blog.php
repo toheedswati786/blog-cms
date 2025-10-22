@@ -1,7 +1,7 @@
 <?php
 // models/Blog.php
-require_once 'config.php';
-require_once 'db.php';
+require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/../db.php';
 
 class Blog {
     private $conn;

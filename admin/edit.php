@@ -1,7 +1,7 @@
 <?php
 // admin/edit.php
-require_once '../config.php';
-require_once '../models/Blog.php';
+require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/../models/Blog.php';
 
 if(!isset($_GET['id'])) {
     redirect('admin/index.php');
